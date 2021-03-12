@@ -12,10 +12,10 @@
         -Dpackaging=jar \
         -DlocalRepositoryPath=repo \
         -DgeneratePom=true \
-        -DcreateChecksum=true`
+        -DcreateChecksum=true
 ```
 4. Deploy to the "repo"  
-`scp -r ./repo user@test.company.com:/var/www/test.company.com/repo`
+`scp -r ./repo user@test.company.com:/var/www/test.company.com`
 
 # How to use JAR artifact in Jenkins
 ```
